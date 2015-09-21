@@ -1,8 +1,8 @@
-#This is the makeCacheMatrix function.  It stores and retrieves the inverses
-#of matrices.
+## This is the makeCacheMatrix function.  It stores and retrieves the inverses
+# of matrices.
 
-#I used the variable names mat and invs for the original matrix and its inverse, resp.  
-#likewise, I used the function names, setmatrix, getmatrix, setinvs and getinvs.
+# I used the variable names mat and invs for the original matrix and its inverse, resp.  
+# likewise, I used the function names, setmatrix, getmatrix, setinvs and getinvs.
 
 makeCacheMatrix <-function(mat){
   
@@ -26,10 +26,10 @@ makeCacheMatrix <-function(mat){
 }    
 
 
-##This is the cachesolve function
+## This is the cachesolve function
 
-#It takes the makeCacheMatrix function as its input
-#The argument of the makeCacheMatrix function should be the matrix that you want to invert
+# It takes the makeCacheMatrix function as its input
+# The argument of the makeCacheMatrix function should be the matrix that you want to invert
 
 
 
@@ -44,7 +44,7 @@ cachesolve <- function(x, ...) {
   }
   
   message("Computing inverse...")
-  hold_matrix <- x$getmatrix()    #here I used the variable hold_matrix for the
+  hold_matrix <- x$getmatrix()    # Here I used the variable hold_matrix
   
   m <- solve(hold_matrix)
   
