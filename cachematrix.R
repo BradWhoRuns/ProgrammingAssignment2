@@ -4,7 +4,7 @@
 # I used the variable names mat and invs for the original matrix and its inverse, resp.  
 # likewise, I used the function names, setmatrix, getmatrix, setinvs and getinvs.
 
-makeCacheMatrix <-function(mat){
+makeCacheMatrix <-function(mat=matrix()){
   
   invs<<-NULL
   
